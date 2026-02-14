@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign Up Form</title>
+</head>
+<body>
+  <main class="sign-up-form--container">
+    <div class="sign-up-form--decoration"><img src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="illustration">
+    <p class="illustration-credits">Photo by <a href="https://unsplash.com/@sebastiansvenson">Sebastian Svenson</a> on Unsplash</p>
+    </div>
+    <div class="sign-up--form">
+      <div class="call-to-signup"><p>To get more out of our services create an account and register for free !</p></div>
+      <div class="form-container">
+        <form action="#" class="sign-up" id="myForm">
+          <div class="user-firstname">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" required>
+          </div>
+          <div class="user-lastname">
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name" required>
+          </div>
+          <div class="user-age">
+            <label for="age">Age (Optional) :</label>
+            <input type="number" name="age" id="age">
+          </div>
+          <div class="user-email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+        </form>
+      </div>
+      <div class="account-creation--container">
+        <div class="account-creation">
+          <button class="create-account" form="myForm">Create Account</button>
+          <p class="call-to-login">Already have an account ? <a href="#" class="login-link">log in</a> now</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

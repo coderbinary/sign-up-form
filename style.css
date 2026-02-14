@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;  
+}
+body{
+  font-family: "Roboto Flex", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sign-up-form--container{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  border:none;
+  
+  overflow: hidden;
+}
+.sign-up-form--decoration{
+  width: 40%;
+}
+.sign-up-form--decoration > img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.illustration-credits{
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.066);
+  top: -25px;
+  text-align: center;
+}
+.illustration-credits > a{
+  color: white;
+}
+.sign-up--form{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+}
+.call-to-signup{
+  height: 33.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  font-size: 2.2rem;
+  font-weight: 100;
+  background-color: rgba(239, 236, 236, 0.266);
+}
+.call-to-signup > p{
+  padding-inline: 64px;
+}
+.form-container{
+  padding-inline: 64px;
+  height: 33.5%;
+ 
+}
+.sign-up{
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sign-up > div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+  max-width: 45%;
+  gap: 10px;
+}
+.sign-up > div > input{
+  border-top: none;
+  border-right: none;
+  border-bottom: 0.2px solid black;
+  border-left: none;
+  padding:5px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.sign-up > div > input[type="number"]::-webkit-outer-spin-button,
+.sign-up > div > input[type="number"]::-webkit-inner-spin-button{
+  appearance: none;
+}
+.sign-up > div > input:focus{
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.account-creation--container{
+  font-size: 1.2rem;
+  font-weight: 100;
+  height: 33.5%;
+  background-color: rgba(239, 236, 236, 0.266);
+}
+.account-creation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  height: 100%;
+  padding-inline: 64px;
+}
+.account-creation > p > a{
+  color: rgb(114,142,159);
+}
+.account-creation > button{
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  color: rgb(240,191,162);
+  background-color: white;
+  border: 2px solid rgb(240,191,162);
+  border-radius: 4px;
+  transition: all 0.2s ;
+}
+.account-creation > button:hover{
+  background-color: rgb(240,191,162);
+  color: white;
+}
